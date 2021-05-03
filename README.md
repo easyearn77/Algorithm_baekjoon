@@ -1,2 +1,2 @@
 # Algorithm_baekjoon
-yeojoo and jieon Algorithm
+yeojoo and jieon Algorithm Study
