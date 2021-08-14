@@ -42,3 +42,4 @@ for i in box:
     answer = max(answer, max(i))
 
 print(answer - 1)
+#여주) 서로 비슷하게 했네ㅋㅋㅋㅋ 화이팅!!!
