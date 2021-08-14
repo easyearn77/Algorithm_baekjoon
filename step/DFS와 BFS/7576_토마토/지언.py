@@ -14,7 +14,11 @@ for i in range(n):
     tmp = list(map(int, sys.stdin.readline().split())) #박스에 들어갈 토마토 정보 저장
     box.append(tmp)
     if 1 in tmp:
-        queue.append([i, tmp.index(1)]) #초기 정점 queue에 저장
+        queue.append([i, tmp.index(1)]) #초기 정점 queue에 저장 // 이렇게 하니까 백준에서 오류남. pycharm은 잘 됨.
+    #이렇게 바꿔야 백준에서 통과됨.ㅠㅠ
+    '''    for j in range(m):
+        if box[i][j]==1:
+            queue.append([i,j]) #초기 정점 queue에 저장'''
 
 
 def bfs():
