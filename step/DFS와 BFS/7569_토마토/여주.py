@@ -41,3 +41,5 @@ for i in graph:
                 exit(0)
         answ = max(answ, max(j))
 print(answ - 1)
+
+#지언) 점점 bfs 사용이 익숙해진다! 좋아좋아~
