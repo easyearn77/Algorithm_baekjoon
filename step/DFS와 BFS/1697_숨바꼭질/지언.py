@@ -2,7 +2,7 @@
 
 import sys
 from collections import deque
-MAX=100001 #max 설정 안하면 오류남.
+MAX=100001 #max 설정 안하면 오류남. (여주) 문제에서 직선 거리 최대가 100000이라고 주어져서 max를 100001로 설정해야 하나봐!)
 
 n,k=map(int,sys.stdin.readline().split())
 road=[0 for _ in range(MAX)]
