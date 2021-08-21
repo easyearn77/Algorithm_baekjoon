@@ -30,6 +30,7 @@ def bfs():
 
 n, m = map(int, sys.stdin.readline().split())
 location = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]
+# 내꺼에 비해 코드 줄인 부분 확인 잘 했어!
 
 print(bfs())
 
